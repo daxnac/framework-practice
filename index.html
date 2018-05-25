@@ -5,11 +5,12 @@
   <title>Alligators To Know</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="components.js"></script>
 </head>
 <body>
 <div id="app">  
 
-<app-header text="My Favorite Alligators"></app-header>  
+  <app-header text="My Favorite Alligators"></app-header>  
   
   <p v-for="item in example">
     {{ item }}
@@ -32,6 +33,6 @@
 
   </section>
 </div>
-<script src="script.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
