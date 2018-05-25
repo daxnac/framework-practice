@@ -21,10 +21,16 @@ var gators = [
 var app = new Vue ({
   el: '#app',
   data: {
-    message: 'Hello Vue!',
     alligators: gators
+  },
+  methods: {
+    test: function(){
+      console.log("Test was called")
+    },
+    filter: function(){
+      console.log("Filter was called")
+    }
   }
-  
 })
 
 
