@@ -21,7 +21,13 @@ var app = new Vue ({
   
   el: '#app',
   data: {
-    message: 'Hello Vue!'
+    message: 'Hello Vue!',
+    alligators: gators
   }
   
 })
+
+
+
+
+// this kinda reminds me of how Adobe's old Spry Ajax Framework works.
